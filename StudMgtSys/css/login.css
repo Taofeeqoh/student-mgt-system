@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(230, 228, 227);
+}
+.admin{
+    margin-top: 50px;
+    z-index: 2;
+}
+form{
+    margin: auto;
+    max-width: 300px;
+}
+input{
+    text-indent: 10px;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(223, 217, 210);
+    color: #2b6405;
+    border: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+
+}
+#submit:hover{
+    color: #171d17;
+    background-color: #ccac85;
+}
+#submit{
+    color: rgb(223, 217, 210);
+    background-color: #2b6405;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.login{
+    
+    margin: auto;
+    border: none;
+    background-color: rgb(238, 228, 214);
+    box-shadow: #c9caa8 10px 10px 10px 0px, #c9caa8 -10px -10px 15px 0px;
+    border-radius: 10px;
+    padding: 20px 50px ;
+    color: #2b6405;
+}
+#name{
+    background-image: url(admin.jpg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+#mail{
+    background-image: url(mail.jpg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+#pass{
+    background-image: url(pass.jpg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
